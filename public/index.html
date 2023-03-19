@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>The Hysteria Raid Team</title>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <img src="/images/logo.png" />
+        <h1>The Hysteria Raid Team Sign Up</h1>
+        <form id="raidTeamSignUp" method="POST" action="/results">
+            
+            <label>Name:
+                <input type="text" id="name" name="name"/>
+            </label>
+
+            <div id="choice1Container">
+                <h3>Choice 1</h3>
+                <label>Character:
+                    <input type="text" id="character1" name="character1"/>
+                </label>
+    
+                <label>Class:
+                    <select id="class1" name="class1">
+                        <option value="-"></option>
+                        <option value="deathknight">Death Knight</option>
+                        <option value="demonhunter">Demon Hunter</option>
+                        <option value="druid">Druid</option>
+                        <option value="evoker">Evoker</option>
+                        <option value="hunter">Hunter</option>
+                        <option value="mage">Mage</option>
+                        <option value="monk">Monk</option>
+                        <option value="paladin">Paladin</option>
+                        <option value="priest">Priest</option>
+                        <option value="rogue">Rogue</option>
+                        <option value="shaman">Shaman</option>
+                        <option value="warlock">Warlock</option>
+                        <option value="warrior">Warrior</option>
+                    </select>
+                </label>
+    
+                <label>Role:
+                    <select id="role1" name="role1">
+                        <option value="-"></option>
+                        <option value="tank">Tank</option>
+                        <option value="healer">Healer</option>
+                        <option value="range">Range</option>
+                        <option value="melee">Melee</option>
+                        <option value="all">All</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class="choice2Container">
+                <h3>Choice 2</h3>
+                <label>Character:
+                    <input type="text" id="character2" name="character2"/>
+                </label>
+    
+                <label>Class:
+                    <select id="class2" name="class2">
+                        <option value="-"></option>
+                        <option value="deathknight">Death Knight</option>
+                        <option value="demonhunter">Demon Hunter</option>
+                        <option value="druid">Druid</option>
+                        <option value="evoker">Evoker</option>
+                        <option value="hunter">Hunter</option>
+                        <option value="mage">Mage</option>
+                        <option value="monk">Monk</option>
+                        <option value="paladin">Paladin</option>
+                        <option value="priest">Priest</option>
+                        <option value="rogue">Rogue</option>
+                        <option value="shaman">Shaman</option>
+                        <option value="warlock">Warlock</option>
+                        <option value="warrior">Warrior</option>
+                    </select>
+                </label>
+    
+                <label>Role:
+                    <select id="role2" name="role2">
+                        <option value="-"></option>
+                        <option value="tank">Tank</option>
+                        <option value="healer">Healer</option>
+                        <option value="range">Range</option>
+                        <option value="melee">Melee</option>
+                        <option value="all">All</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="choice3Container">
+                <h3>Choice 3</h3>
+                <label>Character:
+                    <input type="text" id="character3" name="character3"/>
+                </label>
+    
+                <label>Class:
+                    <select id="class3" name="class3">
+                        <option value="-"></option>
+                        <option value="deathknight">Death Knight</option>
+                        <option value="demonhunter">Demon Hunter</option>
+                        <option value="druid">Druid</option>
+                        <option value="evoker">Evoker</option>
+                        <option value="hunter">Hunter</option>
+                        <option value="mage">Mage</option>
+                        <option value="monk">Monk</option>
+                        <option value="paladin">Paladin</option>
+                        <option value="priest">Priest</option>
+                        <option value="rogue">Rogue</option>
+                        <option value="shaman">Shaman</option>
+                        <option value="warlock">Warlock</option>
+                        <option value="warrior">Warrior</option>
+                    </select>
+                </label>
+    
+                <label>Role:
+                    <select id="role3" name="role3">
+                        <option value="-"></option>
+                        <option value="tank">Tank</option>
+                        <option value="healer">Healer</option>
+                        <option value="range">Range</option>
+                        <option value="melee">Melee</option>
+                        <option value="all">All</option>
+                    </select>
+                </label>
+            </div>
+
+
+           <input type="submit" value="Save" id="savebtn">
+        </form>
+    </body>
+</html>
